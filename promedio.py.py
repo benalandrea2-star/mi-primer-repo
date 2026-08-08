@@ -31,3 +31,8 @@ print(f"La tercera nota es: {nota3}")
 print("")
 
 print(f"El promedio final del estudiante es: {promedio:.2f}")
+
+
+nota4 = float(input("Ingrese la cuarta nota: "))
+
+promedio = (nota1 + nota2 + nota3 + nota4) / 4
